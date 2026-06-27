@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Salhi | Portfolio</title>
+    <!-- الربط بملف التصميم -->
+    <link rel="stylesheet" href="style.css">
+    <!-- الأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="logo">Adam<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Über mich</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projekte</a></li>
+            <li><a href="#experience">Werdegang</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home">
+        <div class="hero-text">
+            <h3>Hallo, ich bin</h3>
+            <h1>Adam <span>Salhi</span></h1>
+            <h3>Digital Communication & Web Development</h3>
+            <p>18-jähriger Autodidakt mit Leidenschaft für modernes Webdesign und digitales Marketing. Ich entwickle kreative Lösungen und lerne täglich dazu.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/212772016185" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="mailto:saalhiadam@gmail.com" class="btn btn-primary" style="background: #D44638; color: white;">
+                    <i class="fas fa-envelope"></i> E-Mail
+                </a>
+                <!-- الزر كيحمل الملف ديالك cv.pdf من نفس الدوسيي -->
+                <a href="cv.pdf" download="Adam_Salhi_CV.pdf" class="btn btn-outline">
+                    <i class="fas fa-file-pdf"></i> CV laden
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- حط التصويرة ديالك هنا -->
+            <img src="photo cv.png" alt="Adam Salhi">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2 class="section-title">Über mich</h2>
+        <p>
+            Ich bin ein 18-jähriger Student aus Casablanca mit einer starken Leidenschaft für Webentwicklung und digitale Kommunikation. 
+            Als Autodidakt habe ich mir umfangreiche Kenntnisse in HTML, CSS und JavaScript angeeignet und setze diese in selbstständigen 
+            Projekten auf GitHub um. Neben meinem Studium an der FJES Ain Sebaâ zeichne ich mich durch Disziplin, Teamfähigkeit und 
+            eine hohe Lernbereitschaft aus. Mein Ziel ist es, meine technischen Fähigkeiten in einem zukunftsorientierten Studiengang 
+            oder einer Ausbildung weiterzuentwickeln.
+        </p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2 class="section-title">Fähigkeiten</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <div class="skill-info"><span>HTML / CSS</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>JavaScript</span><span>75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Digitales Marketing</span><span>80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>UI/UX Design</span><span>70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Git & GitHub</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Bürokommunikation</span><span>80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2 class="section-title">Meine Projekte</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>GSM X Morocco</h3>
+                <p>Komplette Web-App für Telefonie-Branding. Live Deployment auf Vercel mit benutzerfreundlichem Interface.</p>
+                <div class="project-tags">
+                    <span>HTML5</span><span>CSS3</span><span>JS</span><span>Vercel</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Dashboard Admin</h3>
+                <p>Sicheres Admin-Dashboard mit Login-System, entwickelt mit Fokus auf Benutzererfahrung und Cybersicherheit.</p>
+                <div class="project-tags">
+                    <span>UI/UX</span><span>CSS</span><span>HTML</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>GTC Germany</h3>
+                <p>Professionelle Unternehmenswebseite auf Deutsch, entwickelt für den internationalen Markt mit modernem Design.</p>
+                <div class="project-tags">
+                    <span>HTML</span><span>CSS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION SECTION -->
+    <section id="experience">
+        <h2 class="section-title">Werdegang</h2>
+        <div class="timeline-item">
+            <h4>Licence: Digitale Kommunikation & Unternehmertum</h4>
+            <span class="date">2026 – heute</span>
+            <p>FJES Ain Sebaâ, Casablanca (1. Semester)</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Abitur (SVT - Biologie)</h4>
+            <span class="date">2024 – 2025</span>
+            <p>Lycee Azhar, Casablanca</p>
+        </div>
+        <div class="timeline-item">
+            <h4>Praktikum – Digitales Marketing</h4>
+            <span class="date">Casablanca</span>
+            <p>Online-Produktpromotion, Content-Erstellung für soziale Netzwerke und Entwicklung digitaler Strategien.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 class="section-title" style="display: inline-block;">Kontakt aufnehmen</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 20px;">
+            Du möchtest mit mir zusammenarbeiten oder mir eine Nachricht schicken?<br>
+            Ich freue mich über deine Kontaktaufnahme!
+        </p>
+        <div class="contact-links">
+            <a href="https://wa.me/212772016185" target="_blank" class="wa"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:saalhiadam@gmail.com" class="mail"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/Salhi12345" target="_blank" class="git"><i class="fab fa-github"></i></a>
+        </div>
+        <p style="margin-top: 40px; font-size: 13px; color: var(--text-secondary); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 20px;">
+            &copy; 2026 Adam Salhi. All rights reserved.
+        </p>
+    </section>
+
+    <!-- الربط بملف السكريبت -->
+    <script src="script.js"></script>
+</body>
+</html>
