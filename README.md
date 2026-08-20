@@ -6,7 +6,6 @@ This is my fully responsive **personal portfolio website**. It serves as a moder
 - 🎨 **Modern & Dark Theme UI** - Clean, professional design with smooth animations.
 - 📱 **100% Responsive** - Works perfectly on Desktop, Tablet, and Mobile devices.
 - 📄 **One-Click PDF Download** - Instantly download my full CV in PDF format.
-- 🚀 **Live Demo** - Deployed on GitHub Pages for easy access.
 - 🔗 **Direct Contact** - Integrated WhatsApp, Email, and GitHub links.
 
 ## 🛠️ Built With
